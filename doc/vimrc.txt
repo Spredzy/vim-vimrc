@@ -1,0 +1,72 @@
+*vimrc.txt* functionality for the vimrc vim plugin
+
+Editing the vimrc file a mapping away
+
+===============================================================================
+CONTENTS                                                       *Vimrc-contents*
+
+    1. Intro .......................... |VimrcIntro|
+    2. Usage .......................... |VimrcUsage|
+    3. Configuration .................. |VimrcConfiguration|
+    4. License ........................ |VimrcLicense|
+    5. Contributing ................... |VimrcContributing|
+    6. Changelog ...................... |VimrcChangelog|
+    7. Credits ........................ |VimrcCredits|
+
+===============================================================================
+1. Intro                                                           *VimrcIntro*
+
+Sometimes while editing a file you have a great idea for a new mapping
+function vim feature. So you normally have to stop what you are doing edit
+your .vimrc file save it and source it. This plugins aims to make .vimrc
+change part of your workflow. So it doesn't take you out what you are
+actually working on.
+
+===============================================================================
+2. Usage                                                           *VimrcUsage*
+
+To get started one needs to map the toggling key : >
+
+    nnoremap <c-e> :TogglingVimrc()<cr>
+
+Change the mapped key to suite your taste. In the example the e in <c-e> stands
+for edit.
+
+Now, admiting you are working on a file,  if you press <c-e> the main window
+will be vertically split, opening your $MYVIMRC on the left side buffer. If
+you press <c-e> again your buffer will be saved, closed and $MYVIMRC will be
+sourced.
+
+===============================================================================
+3. Configuration                                           *VimrcConfiguration*
+
+None at the moment
+
+===============================================================================
+4. License                                                       *VimrcLicense*
+
+Apache v2 License
+
+===============================================================================
+5. Contributing                                               *VimContributing*
+
+Any suggestion / bug fix / comment is welcome. Don't be shy.
+
+Github : http://github.com/Spredzy/vim-vimrc
+
+===============================================================================
+6. Changelog                                                   *VimrcChangelog*
+
+v0.0.1
+    * Project creation
+
+===============================================================================
+7. Credits                                                       *VimrcCredits*
+
+This project was made possible thanks to the excellent resource from Steve
+Losh (@stevelosh) on learning vim script
+
+    http://learnvimscriptthehardway.stevelosh.com
+
+===============================================================================
+
